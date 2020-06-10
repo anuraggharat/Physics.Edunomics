@@ -22,9 +22,8 @@ const Example = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto">
-          <Link className="pill">Login</Link>
-          <Link className="rounded-pill">Login</Link>
-
+          <Link className="rounded-pill py-1 px-4 text-white border">Signup</Link>
+          <Link className="rounded-pill py-1 px-4 text-white border">Login</Link>
           </Nav>
           
         </Collapse>
