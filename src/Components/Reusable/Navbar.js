@@ -5,12 +5,10 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavLink,
-  NavbarText,
   Button
 } from 'reactstrap';
 import {  Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 
 
 
