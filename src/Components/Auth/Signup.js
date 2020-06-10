@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Dashboard({children}) {
+export default function Signup() {
     return (
-        <div className="">
+        <div>
             
         </div>
     )

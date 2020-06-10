@@ -1,8 +1,11 @@
 import React from 'react'
 import Content from './Content'
+import Navbar from '../Reusable/Navbar'
+import Footer from '../Reusable/Footer'
 export default function index() {
     return (
         <>
+        <Navbar />
         <div className="Home py-5">
             <div className="container text-center py-5">
                 <h1 className="display-1 font-weight-normal text-white">Where you want to go today?</h1>
@@ -12,6 +15,7 @@ export default function index() {
         <section className="py-5">
             <Content />
         </section>
+        <Footer />
         </>
     )
 }
