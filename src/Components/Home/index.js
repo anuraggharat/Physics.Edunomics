@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Content from './Content'
 export default function index() {
     return (
         <>
@@ -9,9 +9,9 @@ export default function index() {
                 <h2 className=" text-white mt-5">Share your ultimate travel bucket list with us!</h2>
             </div>
         </div>
-        <div style={{minHeight:"100vh",backgroundColor:"green"}}>
-            
-        </div>
+        <section className="py-5">
+            <Content />
+        </section>
         </>
     )
 }
