@@ -1,6 +1,12 @@
 import {combineReducers} from 'redux'
+import authReducers from './auth'
+import profileReducers from './profile' 
+
 
 const rootReducer=combineReducers(
-    auth:
-    profile:
+{
+    auth:authReducers,
+    profile:profileReducers
+}
 )
+export default rootReducer

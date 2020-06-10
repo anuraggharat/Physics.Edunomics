@@ -6,10 +6,13 @@ import Dashboard from './Components/Dashboard'
 import Signup from './Components/Auth/Signup';
 import Login from './Components/Auth/Login';
 import SignupNew from './Components/Auth/SignupNew';
+import {Provider} from 'react-redux'
+import store from './store';
 
 function App() {
   return (
     <>
+    <Provider store={store}>
       <Router>
         <Switch>
           <Route exact path="/" component={Home}  />
@@ -20,7 +23,7 @@ function App() {
           <Route component={Error} />
         </Switch>
       </Router>
-        
+      </Provider> 
     </>
   );
 }
