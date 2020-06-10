@@ -17,3 +17,23 @@ a,a:hover{
     background-size: cover;
     background-attachment: fixed;
 }
+.signup-bg{
+    background: url('https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500') !important;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.signup-bgnew{
+    background: url('https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500') !important;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.signup-card{
+    background-color:rgb(63, 86, 219);
+    position: absolute;
+    width: 40%;
+    top: 10%;
+    right: 10%;
+    z-index: 1;
+}
