@@ -8,7 +8,7 @@ import Navbar from './Components/Reusable/Navbar'
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
         <Navbar />
         <Switch>
@@ -19,7 +19,7 @@ function App() {
         <Footer />
       </Router>
         
-    </div>
+    </>
   );
 }
 
