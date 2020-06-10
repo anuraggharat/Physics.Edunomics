@@ -8,6 +8,7 @@ import {
   NavLink,
   NavbarText
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,11 +17,16 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar  expand="md" className="bg-transparent" fixed="top">
         <NavbarBrand href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <NavLink>Simple Text</NavLink>
+          <Nav className="ml-auto">
+          <Link className="pill">Login</Link>
+          <Link className="rounded-pill">Login</Link>
+
+          </Nav>
+          
         </Collapse>
       </Navbar>
     </div>
