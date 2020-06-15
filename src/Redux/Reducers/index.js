@@ -3,10 +3,10 @@ import authReducers from './auth'
 import profileReducers from './profile' 
 
 
-const rootReducer=combineReducers(
-{
-    auth:authReducers,
-    profile:profileReducers
-}
-)
+// const rootReducer=combineReducers(
+// {
+//     auth:authReducers,
+//     profile:profileReducers
+// }
+// )
 export default rootReducer
