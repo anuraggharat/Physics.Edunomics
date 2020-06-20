@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import Home from './Components/Home/Home'
-import Dashboard from './Components/Dashboard'
+import Dashboard from './Components/Dashboard/Main'
 import Signup from './Components/Auth/Signup';
 import Login from './Components/Auth/Login';
 //import {Provider} from 'react-redux'
