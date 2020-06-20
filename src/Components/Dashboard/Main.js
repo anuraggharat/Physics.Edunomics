@@ -11,9 +11,10 @@ export default function Main() {
 
     const toggleSidebar=()=>{
       setSidebarState(!sidebarState)
+      console.log(!sidebarState)
     }
 
-    
+
     const styles={ height: "100%",
         width: 0,
         top: 0,
@@ -58,7 +59,7 @@ export default function Main() {
 </div>
 
 <div id="main" style={sidebarState ? (stylesMain):(activeStylesMain)} >
-  <button class="openbtn" onClick={(sidebarState)=>setSidebarState(!sidebarState)}>&#9776; Open Sidebar</button>
+  <button class="openbtn" onClick={toggleSidebar} >&#9776; Open Sidebar</button>
   <h2>Collapsed Sidebar</h2>
   <p>Content...</p>
 </div>
