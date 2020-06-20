@@ -37,3 +37,6 @@ a,a:hover{
     right: 10%;
     z-index: 1;
 }
+.h-min-100{
+    min-height: 100vh !important;
+}

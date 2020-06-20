@@ -6,16 +6,11 @@ export default function Signup() {
     return (
         <div className="row w-100 p-0 m-0">
             <div className="signup-bg col-sm-12 col-lg-7">
-                asdad
+                
             </div>
             <div className="col-sm-12 col-lg-5 pt-5 bg-white">
-                <div className="font-italic container text-center">
-                    <h1>PHYSICS INITIATIVE</h1>
-                </div>
-                <div className="container text-center">
-                    <h2>Register</h2>
-                </div>
-                <div className="container w-100 pt-3">
+                
+                <div className="container w-100 pt-4">
                 <Form className="w-100">
 
                 <FormGroup row>

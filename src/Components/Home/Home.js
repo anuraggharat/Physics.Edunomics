@@ -9,7 +9,7 @@ const index=()=> {
   
     return (
         <>
-        <Navbar/>
+       
         <div className="Home py-5">
             <div className="container text-center py-5">
                 <h1 className="display-1 font-weight-normal text-white">Where you want to go today?</h1>

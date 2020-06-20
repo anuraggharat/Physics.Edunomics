@@ -74,7 +74,7 @@ const NavbarMain = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto">
           <Link className="rounded-pill py-1 px-4 text-white border mr-2" to="/signup">  Signup</Link>
-          <Link className="rounded-pill py-1 px-4 text-white border ml-2"  onClick={toggleModal}>Login</Link>
+          <Link className="rounded-pill py-1 px-4 text-white border ml-2"  to="/login">Login</Link>
 
           </Nav>
           

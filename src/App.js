@@ -9,12 +9,15 @@ import SignupNew from './Components/Auth/SignupNew';
 //import {Provider} from 'react-redux'
 //import store from './store';
 import Error from './Components/Reusable/Error';
+import NavbarMain from './Components/Reusable/Navbar';
+
 
 function App() {
   return (
     <>
     {/* <Provider store={store}> */}
       <Router>
+        <NavbarMain />
         <Switch>
           <Route exact path="/" component={Home}  />
           <Route  path="/user/dashboard" component={Dashboard}  />
