@@ -5,7 +5,6 @@ import Home from './Components/Home/Home'
 import Dashboard from './Components/Dashboard'
 import Signup from './Components/Auth/Signup';
 import Login from './Components/Auth/Login';
-import SignupNew from './Components/Auth/SignupNew';
 //import {Provider} from 'react-redux'
 //import store from './store';
 import Error from './Components/Reusable/Error';
@@ -23,7 +22,6 @@ function App() {
           <Route  path="/user/dashboard" component={Dashboard}  />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
-          <Route path="/signupnew" component={SignupNew} />
           <Route component={Error} />
         </Switch>
       </Router>

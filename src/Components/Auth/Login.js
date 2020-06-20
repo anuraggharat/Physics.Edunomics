@@ -1,11 +1,11 @@
 import React from 'react'
-import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
 export default function Login() {
     return (
-        <div className="row w-100 pt-5 h-min-100">
+        <div className="row w-100 ">
             <div className="col-lg-8 col-sm-12">
                 <img src="https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className="img-fluid" alt="Login" />
             </div>
@@ -29,7 +29,6 @@ export default function Login() {
       <p className="my-3">New here ?</p>
       <Button  color="primary" block><Link to="/signup" className="text-white">Register Now!</Link></Button>
       </div>
-
       </Form>
             </div>
         </div>

@@ -5,23 +5,10 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  Button
 } from 'reactstrap';
-import {  Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { Form, FormGroup, Label, Input } from 'reactstrap';
-
-
-
 import { Link } from 'react-router-dom';
 
-const NavbarMain = (props) => {
-
-  const [modal, setModal] = useState(false);
-
-    const toggleModal = () => setModal(!modal);
-  
-    
-  
+const NavbarMain = (props) => {    
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -30,45 +17,7 @@ const NavbarMain = (props) => {
   return (
     <div>
       
-      <Navbar  expand="md" dark color="dark" fixed="top">
-        
-        
-        {/* modal code */}
-        <Modal isOpen={modal} toggle={toggleModal} backdrop={true}>
-          <Form>
-          <ModalHeader toggle={toggleModal}>LOGIN</ModalHeader>
-          <ModalBody>
-          <FormGroup>
-        <Label for="exampleEmail">Email</Label>
-        <Input
-          type="email"
-          name="email"
-          id="exampleEmail"
-          placeholder="with a placeholder"
-        />
-      </FormGroup>
-      <FormGroup>
-        <Label for="examplePassword">Password</Label>
-        <Input
-          type="password"
-          name="password"
-          id="examplePassword"
-          placeholder="password placeholder"
-        />
-      </FormGroup>
- 
-          </ModalBody>
-          <ModalFooter>
-            <Button color="primary" onClick={toggleModal}>LOGIN</Button>
-            <Button color="secondary" onClick={toggleModal}>Cancel</Button>
-          </ModalFooter>
-          </Form>
-        </Modal>
-    
-        
-        
-        
-        
+      <Navbar  expand="md" dark color="dark" >
         <NavbarBrand href="/">Welcome to Edunomics</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

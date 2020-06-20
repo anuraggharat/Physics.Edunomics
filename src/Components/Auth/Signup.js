@@ -8,7 +8,7 @@ export default function Signup() {
             <div className="signup-bg col-sm-12 col-lg-7">
                 
             </div>
-            <div className="col-sm-12 col-lg-5 pt-5 bg-white">
+            <div className="col-sm-12 col-lg-5  bg-white">
                 
                 <div className="container w-100 pt-4">
                 <Form className="w-100">
