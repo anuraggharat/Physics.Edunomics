@@ -53,14 +53,13 @@ a,a:hover{
 .logo>span{
   font-size: 14px;
 }
-  #main {
-    transition: all .5s ease-out;
-    padding: 16px;
-    flex: 1;
-  }
-  .main-content{
+#main {
+  transition: all .2s ease;
+  flex: 1;
+}
+.main-content{
       display: flex;
-  }
+}
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
