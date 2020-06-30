@@ -2,6 +2,7 @@ import React from 'react'
 import Content from './Content'
 import Navbar from '../Reusable/Navbar'
 import Footer from '../Reusable/Footer'
+import { Link } from 'react-router-dom'
 
 
 const index=()=> {

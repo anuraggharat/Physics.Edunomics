@@ -5,8 +5,7 @@ import Questions from '../../Assets/Images/questions.png'
 import Download from '../../Assets/Images/download.png'
 import Practice from '../../Assets/Images/practicequestions.png'
 import {
-    Card, CardHeader, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    Card, CardHeader, CardBody,
   } from 'reactstrap';
   import { ListGroup, ListGroupItem } from 'reactstrap';
 

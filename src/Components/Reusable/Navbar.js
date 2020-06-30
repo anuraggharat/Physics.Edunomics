@@ -24,7 +24,7 @@ const NavbarMain = (props) => {
           <Nav className="ml-auto">
           <Link className="rounded-pill py-1 px-4 text-white border mr-2" to="/signup">  Signup</Link>
           <Link className="rounded-pill py-1 px-4 text-white border ml-2"  to="/login">Login</Link>
-
+          <Link className="btn btn-success btn-outline ml-2" to="/user/dashboard" >Dashboad</Link>
           </Nav>
           
         </Collapse>
